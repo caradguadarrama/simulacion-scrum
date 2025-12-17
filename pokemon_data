@@ -1,0 +1,13 @@
+USE pokemon_base;
+CREATE TABLE POKEMONES(
+Nombre VARCHAR(20),
+Habilidades VARCHAR(50),
+Orden VARCHAR(50));
+
+USE pokemon_base;
+
+INSERT INTO POKEMONES(
+Nombres, Habilidades, Orden) 
+VALUES ('Ditto', );
+
+SELECT * FROM POKEMONES;
